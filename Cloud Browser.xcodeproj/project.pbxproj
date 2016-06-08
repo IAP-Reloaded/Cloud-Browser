@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88BD9CAE1D08840E00354E71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9CAD1D08840E00354E71 /* AppDelegate.m */; };
+		88BD9CB11D08840E00354E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9CB01D08840E00354E71 /* main.m */; };
+		88BD9CB31D08840E00354E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BD9CB21D08840E00354E71 /* Assets.xcassets */; };
+		88BD9CB61D08840E00354E71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BD9CB41D08840E00354E71 /* MainMenu.xib */; };
+		88BD9CC11D08840E00354E71 /* Cloud_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD9CC01D08840E00354E71 /* Cloud_BrowserTests.m */; };
+		88BD9CCC1D08842100354E71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD9CCB1D08842100354E71 /* Cocoa.framework */; };
+		88BD9CCE1D08842500354E71 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD9CCD1D08842500354E71 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88BD9CBD1D08840E00354E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88BD9CA11D08840D00354E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BD9CA81D08840E00354E71;
+			remoteInfo = "Cloud Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88BD9CA91D08840E00354E71 /* Cloud Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BD9CAC1D08840E00354E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88BD9CAD1D08840E00354E71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88BD9CB01D08840E00354E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88BD9CB21D08840E00354E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88BD9CB51D08840E00354E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		88BD9CB71D08840E00354E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88BD9CBC1D08840E00354E71 /* Cloud BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cloud BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BD9CC01D08840E00354E71 /* Cloud_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_BrowserTests.m; sourceTree = "<group>"; };
+		88BD9CC21D08840E00354E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88BD9CCB1D08842100354E71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88BD9CCD1D08842500354E71 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88BD9CA61D08840E00354E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BD9CCE1D08842500354E71 /* WebKit.framework in Frameworks */,
+				88BD9CCC1D08842100354E71 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BD9CB91D08840E00354E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88BD9CA01D08840D00354E71 = {
+			isa = PBXGroup;
+			children = (
+				88BD9CCD1D08842500354E71 /* WebKit.framework */,
+				88BD9CCB1D08842100354E71 /* Cocoa.framework */,
+				88BD9CAB1D08840E00354E71 /* Cloud Browser */,
+				88BD9CBF1D08840E00354E71 /* Cloud BrowserTests */,
+				88BD9CAA1D08840E00354E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88BD9CAA1D08840E00354E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88BD9CA91D08840E00354E71 /* Cloud Browser.app */,
+				88BD9CBC1D08840E00354E71 /* Cloud BrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88BD9CAB1D08840E00354E71 /* Cloud Browser */ = {
+			isa = PBXGroup;
+			children = (
+				88BD9CAC1D08840E00354E71 /* AppDelegate.h */,
+				88BD9CAD1D08840E00354E71 /* AppDelegate.m */,
+				88BD9CB21D08840E00354E71 /* Assets.xcassets */,
+				88BD9CB41D08840E00354E71 /* MainMenu.xib */,
+				88BD9CB71D08840E00354E71 /* Info.plist */,
+				88BD9CAF1D08840E00354E71 /* Supporting Files */,
+			);
+			path = "Cloud Browser";
+			sourceTree = "<group>";
+		};
+		88BD9CAF1D08840E00354E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88BD9CB01D08840E00354E71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88BD9CBF1D08840E00354E71 /* Cloud BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				88BD9CC01D08840E00354E71 /* Cloud_BrowserTests.m */,
+				88BD9CC21D08840E00354E71 /* Info.plist */,
+			);
+			path = "Cloud BrowserTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88BD9CA81D08840E00354E71 /* Cloud Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BD9CC51D08840E00354E71 /* Build configuration list for PBXNativeTarget "Cloud Browser" */;
+			buildPhases = (
+				88BD9CA51D08840E00354E71 /* Sources */,
+				88BD9CA61D08840E00354E71 /* Frameworks */,
+				88BD9CA71D08840E00354E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud Browser";
+			productName = "Cloud Browser";
+			productReference = 88BD9CA91D08840E00354E71 /* Cloud Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88BD9CBB1D08840E00354E71 /* Cloud BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BD9CC81D08840E00354E71 /* Build configuration list for PBXNativeTarget "Cloud BrowserTests" */;
+			buildPhases = (
+				88BD9CB81D08840E00354E71 /* Sources */,
+				88BD9CB91D08840E00354E71 /* Frameworks */,
+				88BD9CBA1D08840E00354E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88BD9CBE1D08840E00354E71 /* PBXTargetDependency */,
+			);
+			name = "Cloud BrowserTests";
+			productName = "Cloud BrowserTests";
+			productReference = 88BD9CBC1D08840E00354E71 /* Cloud BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88BD9CA11D08840D00354E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Usernamer;
+				TargetAttributes = {
+					88BD9CA81D08840E00354E71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					88BD9CBB1D08840E00354E71 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 88BD9CA81D08840E00354E71;
+					};
+				};
+			};
+			buildConfigurationList = 88BD9CA41D08840D00354E71 /* Build configuration list for PBXProject "Cloud Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88BD9CA01D08840D00354E71;
+			productRefGroup = 88BD9CAA1D08840E00354E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88BD9CA81D08840E00354E71 /* Cloud Browser */,
+				88BD9CBB1D08840E00354E71 /* Cloud BrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88BD9CA71D08840E00354E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BD9CB31D08840E00354E71 /* Assets.xcassets in Resources */,
+				88BD9CB61D08840E00354E71 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BD9CBA1D08840E00354E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88BD9CA51D08840E00354E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BD9CB11D08840E00354E71 /* main.m in Sources */,
+				88BD9CAE1D08840E00354E71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BD9CB81D08840E00354E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BD9CC11D08840E00354E71 /* Cloud_BrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88BD9CBE1D08840E00354E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88BD9CA81D08840E00354E71 /* Cloud Browser */;
+			targetProxy = 88BD9CBD1D08840E00354E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88BD9CB41D08840E00354E71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88BD9CB51D08840E00354E71 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88BD9CC31D08840E00354E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88BD9CC41D08840E00354E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88BD9CC61D08840E00354E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cloud Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IAP.Cloud-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88BD9CC71D08840E00354E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cloud Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IAP.Cloud-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88BD9CC91D08840E00354E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cloud BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Usernamer.Cloud-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Browser.app/Contents/MacOS/Cloud Browser";
+			};
+			name = Debug;
+		};
+		88BD9CCA1D08840E00354E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cloud BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Usernamer.Cloud-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Browser.app/Contents/MacOS/Cloud Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88BD9CA41D08840D00354E71 /* Build configuration list for PBXProject "Cloud Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BD9CC31D08840E00354E71 /* Debug */,
+				88BD9CC41D08840E00354E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88BD9CC51D08840E00354E71 /* Build configuration list for PBXNativeTarget "Cloud Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BD9CC61D08840E00354E71 /* Debug */,
+				88BD9CC71D08840E00354E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88BD9CC81D08840E00354E71 /* Build configuration list for PBXNativeTarget "Cloud BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BD9CC91D08840E00354E71 /* Debug */,
+				88BD9CCA1D08840E00354E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88BD9CA11D08840D00354E71 /* Project object */;
+}
