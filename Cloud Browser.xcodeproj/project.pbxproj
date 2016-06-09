@@ -395,6 +395,7 @@
 				88BD9CC71D08840E00354E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88BD9CC81D08840E00354E71 /* Build configuration list for PBXNativeTarget "Cloud BrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				88BD9CCA1D08840E00354E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

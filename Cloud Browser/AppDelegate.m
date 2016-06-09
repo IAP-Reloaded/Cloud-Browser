@@ -11,6 +11,8 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property(nonatomic, copy) NSString *customUserAgent;
+@property(nonatomic, readonly, copy) NSString *title;
 @end
 
 @implementation AppDelegate
@@ -19,9 +21,12 @@
     NSURL*url=[NSURL URLWithString:@"http://www.google.com"];
     NSURLRequest*request=[NSURLRequest requestWithURL:url];
     [[_webView mainFrame] loadRequest:request];
+    _customUserAgent = @"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) Chrome/51.0.2704.79";
     _window.titlebarAppearsTransparent = true; // gives it "flat" look
     _window.backgroundColor = NSColor.windowBackgroundColor; // set the background color
-
+}
+- (IBAction)getTitleAndSet:(id)sender {
+    _window.title = _title;
 }
 - (IBAction)setThemeDefault:(id)sender {
     _window.appearance = [NSAppearance appearanceNamed:NSAppearanceNameVibrantLight];

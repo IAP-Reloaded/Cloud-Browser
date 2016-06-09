@@ -10,7 +10,7 @@
 #import <WebKit/WebKit.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (strong) IBOutlet WebView *webView;
+@property (weak) IBOutlet WebView *webView;
 
 @end
 
